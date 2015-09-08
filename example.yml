@@ -1,0 +1,13 @@
+log_path: STDOUT
+log_level: debug
+plugins:
+  - type: post_im_kayac
+    user_name: your_im_kayac_user_name
+    password: your_im_kayac_password
+    access_key_id: AKxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    secret_access_key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    aws_region: ap-northeast-1
+    s3_bucket: your_s3_bucket_name
+    bitly_user_name: bitly_user_name
+    bitly_api_key: bitly_api_key
+    subject: "FAILURE: [${hostname}] ${command}"
