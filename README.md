@@ -1,6 +1,6 @@
 # Alerty::Plugin::PostImKayac
 
-Datadog Event plugin for [alerty](https://github.com/sonots/alerty).
+[im.kayac.com](http://im.kayac.com/) plugin for [alerty](https://github.com/sonots/alerty).
 
 ## Spcial Thanks
 
